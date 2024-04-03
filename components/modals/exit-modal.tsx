@@ -40,7 +40,7 @@ export const ExitModal = () => {
           <DialogTitle className="text-center font-bold text-2xl">
             Wait, {`don't`} go!
           </DialogTitle>
-          <DialogDescription>
+          <DialogDescription className="text-center">
             {`You're`} about to leave the lesson. Are you sure?
           </DialogDescription>
         </DialogHeader>
