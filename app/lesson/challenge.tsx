@@ -40,6 +40,7 @@ export const Challenge = ({
           audioSrc={option.audioSrc}
           disabled={disabled}
           type={type}
+          onClick={() => onSelect(option.id)}
         />
       ))}
     </div>
